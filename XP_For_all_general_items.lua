@@ -27,7 +27,7 @@ if bit32 == true then
   p1 = gg.prompt({"XP Amount for all items:"})
   if p1 == nil then
       print("CANCEL")
-      os.exit
+      os.exit()
     else
     Subtext("Please Wait...")
     gg.setRanges(gg.REGION_C_ALLOC)
