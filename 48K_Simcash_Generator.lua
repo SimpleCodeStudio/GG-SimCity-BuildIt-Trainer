@@ -1,4 +1,5 @@
 function Subtext(x) gg.toast("\n"..x) end
+function valueNotFound() gg.alert("Searched value not found. Please ask this from developer. (SimpleCodeStudio)") return end
 function Search(d,r) gg.clearResults(); gg.searchNumber(d, r); if gg.getResultsCount() == 0 then valueNotFound() end end
 local getT2 = {}
 function SimpleIncrementer() local increment = 1; for v = 1, getT2 do; local o = {}; gr=gg.getResults("500"); o[1]={}; o[1].address=gr[increment].address+0x0; o[1].flags=gg.TYPE_DWORD; o[1].value = gg.getResults("1")[1].value + increment; gg.addListItems(o); gg.setValues(o); increment = increment + 1 end end
