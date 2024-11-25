@@ -26,11 +26,12 @@ if bit32 == true then
   else
   p1 = gg.prompt({"XP Amount for all items:"})
   if p1 == nil then
-      Subtext("CANCEL")
+      print("CANCEL")
+      os.exit
     else
     Subtext("Please Wait...")
     gg.setRanges(gg.REGION_C_ALLOC)
-    Search(UP_A, gg.TYPE_BYTE)
+    Search(httpData.UP_A[1], gg.TYPE_BYTE)
     FindPointer_v1(gg.TYPE_QWORD)
     gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
     FindPointer_v18(gg.TYPE_QWORD)
