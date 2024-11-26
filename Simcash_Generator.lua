@@ -1,3 +1,6 @@
+print("Discord: https://discord.com/invite/3BHekVBQUe")
+print("Support me with patreon!: https://www.patreon.com/c/user?u=86903282")
+print("Open source, Github project: https://github.com/SimpleCodeStudio/GG-SimCity-BuildIt-Trainer")
 function Subtext(x) gg.toast("\n"..x) end
 function valueNotFound() gg.alert("Searched value not found. Please ask this from developer. (SimpleCodeStudio)") return end
 function Search(d,r) gg.clearResults(); gg.searchNumber(d, r); if gg.getResultsCount() == 0 then valueNotFound() end end
@@ -17,5 +20,6 @@ if sc == nil then
   getT2 = gg.getResultsCount()
   SimpleIncrementer()
   gg.clearList()
+  gg.alert("Find correct value and edit with by yourself!")
   Subtext("Successfuly")
 end
