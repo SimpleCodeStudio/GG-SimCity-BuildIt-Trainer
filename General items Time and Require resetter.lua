@@ -21,6 +21,16 @@ if not getMelon then print("Lua code can't loaded: ", badMelon) return end
 local success, result = pcall(getMelon)
 if not success then print("Code can't worked: ", result) return end
 
+print("Discord: https://discord.com/invite/3BHekVBQUe")
+print("Support me with patreon!: https://www.patreon.com/c/user?u=86903282")
+print("Open source, Github project: https://github.com/SimpleCodeStudio/GG-SimCity-BuildIt-Trainer")
+if gg.getTargetInfo().versionName == httpData.UGV[1] then
+  else
+  gg.alert("WARNING: Game update detected. Please wait the data update.")
+  gg.setVisible(true)
+  os.exit()
+end
+
 Subtext("Please Wait...")
 gg.clearList()
 gg.setRanges(gg.REGION_C_ALLOC)
