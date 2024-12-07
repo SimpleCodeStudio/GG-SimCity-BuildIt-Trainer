@@ -976,7 +976,7 @@ function MenuSelect()
   end
   if ms == 4 then
     local lineI = "\n------------------------------\n"
-    gg.alert("Script Info"..lineI.."Developer: SimpleCodeStudio (ForSimpleHack)"..lineI.."Script Version: "..scriptV..""..lineI.."SimCity Version: "..UpdatedGameVersion..""..lineI.."Best Helpers♡ (Discord Names): Zulfilham, Nyakz"..lineI.."Thanks for using my premium script! You are so cool 🔥🔥🔥")
+    gg.alert("Script Info"..lineI.."Developer: SimpleCodeStudio (ForSimpleHack)"..lineI.."Script Version: "..scriptV..""..lineI.."SimCity Version: "..UpdatedGameVersion..""..lineI.."Best Helpers♡ (Discord Names): Zulfilham, Nyakz, Itsmieve"..lineI.."Thanks for using my premium script! You are so cool 🔥🔥🔥")
   end
 end
 mainMenuSelect = MenuSelect
