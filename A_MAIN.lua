@@ -986,7 +986,7 @@ mainRealServer = RealServer
 --#Main
 if gg.getTargetInfo().versionName == UpdatedGameVersion then
   else
-  gg.alert("WARNING: Game update detected. Please wait the data update.")
+  gg.alert("WARNING: Data updated for SimCity ["..httpData.UGV[1].."] Version!")
   gg.setVisible(true)
   os.exit()
 end
