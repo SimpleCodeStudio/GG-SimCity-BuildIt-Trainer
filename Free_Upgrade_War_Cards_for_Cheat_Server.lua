@@ -19,7 +19,7 @@ print("Support me with patreon!: https://www.patreon.com/c/user?u=86903282")
 print("Open source, Github project: https://github.com/SimpleCodeStudio/GG-SimCity-BuildIt-Trainer")
 if gg.getTargetInfo().versionName == httpData.UGV[1] then
   else
-  gg.alert("WARNING: Game update detected. Please wait the data update.")
+  gg.alert("WARNING: Data updated for SimCity ["..httpData.UGV[1].."] Version!")
   gg.setVisible(true)
   os.exit()
 end
